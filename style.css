@@ -1,0 +1,20 @@
+.counts {
+  border: 1px black solid;
+  width: 160px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.button {
+  margin: 5px;
+  margin-left: 40px;
+  width: 100px;
+}
+
+.shout {
+  padding: 2px;
+  margin: 5px 0;
+  width: 145px;
+  border: 1px black solid;
+  border-radius: 5px;
+}

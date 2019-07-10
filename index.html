@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CustomEvent</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <script>
+      const authorsList = [
+      {
+          _id: 1,
+          name: 'Todd'
+      },
+      {
+          _id: 3,
+          name: 'Rob'
+      },
+      {
+          _id: 3,
+          name: 'Sevil'
+      },
+      ];
+
+      var input = document.createElement('input');
+      var div1 = document.createElement('div');
+      var h3 = document.createElement('h3');
+      input.className = 'button';
+      input.type = 'button';
+      input.value = 'stop';
+      document.body.appendChild(input);
+      div1.className = 'counts';
+      h3.innerHTML = 'Count of shouts';
+      document.body.appendChild(div1);
+      div1.appendChild(h3);
+
+      var counts = {};
+   </script>
+   <script type="text/javascript" src="./renderer.js"></script>
+   <script type="text/javascript" src="./touratte.js"></script>
+  </body>
+</html>
